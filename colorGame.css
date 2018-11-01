@@ -1,0 +1,80 @@
+body{
+	background-color: #232323;
+	margin:0; /*to remove extra side space*/
+	font-family: "Montserrat","Avenir";
+}
+
+.square{
+	background-color:green;
+	width:30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.6s;
+	 /*Transition for other browsers*/
+	-webkit-transition:background 0.6s;
+	-moz-transition:background 0.6s;
+}
+
+#container{
+	max-width: 600px;
+	margin: 20px auto;  /*to make it at center*/
+}
+
+#colorDisplay{
+	font-size: 200%;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	background-color: steelblue;
+	margin:0;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding: 20px 0;
+}
+
+/*Giving space to the message
+*/
+#message{
+display: inline-block;
+width:20%;
+}
+#stripe{
+	background-color: white;
+	text-align: center;
+	height: 30px;
+	color:black;
+}
+
+/*
+Class for background of easy or hard selected*/
+.selected{
+
+	background:steelblue;
+	color:white;
+}
+
+button:hover{
+	background:steelblue;
+	color:white;
+}
+
+button{
+	border:none;
+	text-transform: uppercase;
+	height: 100%;
+	background:white;
+	font-weight: 700;
+	color:steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s; /*change color of all buttons after 0.3 seconds*/
+	/*Transition for other browsers*/
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	outline: none;
+}
